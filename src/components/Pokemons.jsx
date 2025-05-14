@@ -64,7 +64,7 @@ function Pokemons() {
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="w-full h-full grid md:grid-cols-[150px_1fr_150px] lg:grid-cols-[250px_1fr_250px] font-press">
+    <div className="select-none w-full h-full grid md:grid-cols-[150px_1fr_150px] lg:grid-cols-[250px_1fr_250px] font-press">
       <div
         className="hidden md:block md:bg-[url('/assets/pik-left.jpg')] w-full bg-center 
     bg-cover
